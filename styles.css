@@ -1,0 +1,51 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    font-family: 'Roboto', sans-serif; /* Usando la tipografía personalizada */
+    background-color: #2c2c2c; /* Fondo oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-image: url('fondo.jpg'); /* Fondo de pantalla */
+    background-size: cover;
+}
+
+/* Estilo del logo en el header */
+header .logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Estilo del bloque principal con la cita */
+.quote-section {
+    margin: 40px 0;
+}
+
+.poster-img {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown; /* Borde tipo outset y color marrón */
+    border-radius: 22px; /* Esquinas redondeadas */
+    margin-bottom: 20px;
+}
+
+/* Estilo de la cita */
+.quote {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* Estilo del pie de página */
+footer {
+    margin-top: 50px;
+    font-size: 0.8em;
+    color: #aaa;
+}
