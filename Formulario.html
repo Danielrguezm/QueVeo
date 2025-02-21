@@ -39,7 +39,7 @@
             <input type="text" id="piso" name="piso" placeholder="Piso" required><br><br>
             <input type="text" id="codigopostal" name="codigopostal" placeholder="Codigo Postal" required><br><br>
 
-            
+
             <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad" required><br><br>
 
             <label for="dni"> DNI: </label>
@@ -50,11 +50,44 @@
             
         </fieldset>
 
+        <!-- Sleccion de genero-->
+         <fieldset> 
+            <legend>Sexo</legend>
+            <label for="sexo-mujer"> Mujer</label>
+            <input type="radio" id="sexo-mujer" name="sexo" value="Mujer" required><br><br>
+
+            <label for="sexo=hombre">Hombre</label>
+            <input type="radio" id="sexo=hombre" name="sexo" value="Hombre" required><br><br>
+        </fieldset>
 
 
+        <!-- Fecha de nacimiento-->
+         <label for="fechaNacimiento"> Fecha de Nacimiento</label>
+         <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br><br>
 
+         <!--Elegir personaje-->
+         <label for="personaje">Selecciona un personaje: </label>
+            <select id="personaje" name="personaje" required>
+                <option value="jessie">Jessie Pinkman</option>
+                <option value="walter">Walter White</option>
+                <option value="saul">Saul Goodman</option>
+                <option value="gustavo">Gustavo Fring</option>
+                <option value="pollos">Pollos Hermanos</option>
+                <option value="otros">Otros personajes</option>
+            </select><br><br>
 
+            <!-- comentarios-->
+             <laberl for="comentarios": </label><br>
+                <textarea id="Comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
 
+                <!-- botones-->
+                 <input type="submit" value="Enviar">
+                 <input type="reset" value="Borrar">
+                 <input type="file" name="archivo" id="archivo" ><br><br>
+                 </form>
+
+                 </main>
+    <footer>         
 
         <p>© 2025 QueVeo - Todos los derechos reservados</p>
     </footer>
